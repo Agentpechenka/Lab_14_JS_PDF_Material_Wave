@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Резюме</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="resume-container">
+        <h1 contenteditable="true" class="editable">Ваше Имя</h1>
+        <p contenteditable="true" class="editable">Ваша Должность</p>
+        <section class="experience">
+            <h2>Опыт работы</h2>
+            <p contenteditable="true" class="editable">Ваш опыт работы здесь...</p>
+        </section>
+        <button id="download">Скачать PDF</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
