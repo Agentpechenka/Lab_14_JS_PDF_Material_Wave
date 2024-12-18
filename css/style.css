@@ -94,3 +94,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+body {
+    font-family: Arial, sans-serif;
+}
+
+.resume-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.editable {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.editable:focus {
+    background-color: #f0f8ff;
+    color: #000;
+}
